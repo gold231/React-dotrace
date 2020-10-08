@@ -20,7 +20,7 @@ class Chart extends Component {
     let xlabels = [];
     let redToken = [];
     let blueToken = [];
-    for(let i=1; i<100;i++) {
+    for(let i=1; i<data.data.length;i++) {
       xlabels.push(data.data[i][0]);
       redToken.push(data.data[i][1]);
       blueToken.push(data.data[i][2]);
