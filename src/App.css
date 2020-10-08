@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.chart {
+  margin: 10%;
+  width: 80%;
+  height: 80%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

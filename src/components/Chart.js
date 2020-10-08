@@ -40,7 +40,7 @@ class Chart extends Component {
 
   render () {    
     this.GetData();
-    console.log("xlabels",this.state.xlabels);
+    // console.log("xlabels",this.state.xlabels);
 
     let chartData = {
       labels: this.state.xlabels,
@@ -107,8 +107,6 @@ class Chart extends Component {
             <Line 
               data={chartData}
               options={options}
-              width={800}
-              height={500}
             />
             
           </div>
